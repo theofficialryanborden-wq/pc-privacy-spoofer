@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pc-privacy-spoofer"
+version = "1.0.0"
+description = "Spoof common Windows PC identifiers for privacy, with backup and restore"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+privacy-spoofer = "privacy_spoofer.cli:main"
+privacy-spoofer-gui = "privacy_spoofer.gui:main"
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

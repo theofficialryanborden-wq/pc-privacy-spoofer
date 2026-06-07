@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Backups (user-specific, stored in home dir by default)
+.pc-privacy-spoofer/
