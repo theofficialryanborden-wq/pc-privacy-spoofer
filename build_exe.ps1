@@ -20,7 +20,7 @@ python -m pip install --upgrade pip pyinstaller | Out-Null
 python -m pip install -e . | Out-Null
 
 Write-Host "Building executable..."
-python -m PyInstaller --noconfirm --clean (Join-Path $ProjectRoot "build\pc-privacy-spoofer.spec")
+python -m PyInstaller --noconfirm --clean (Join-Path $ProjectRoot "packaging\pc-privacy-spoofer.spec")
 
 $exePath = Join-Path $ProjectRoot "dist\PC-Privacy-Spoofer.exe"
 if (Test-Path $exePath) {
