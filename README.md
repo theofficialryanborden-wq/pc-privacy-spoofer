@@ -1,8 +1,17 @@
 # PC Privacy Spoofer
 
-A Windows command-line tool that rotates common hardware and software identifiers used to fingerprint your PC. Every change is backed up so you can restore your original values.
+A Windows tool that rotates common hardware and software identifiers used to fingerprint your PC. Every change is backed up so you can restore your original values.
 
 **Use this for legitimate privacy on your own machine.** Do not use it to evade access controls, impersonate other devices, or violate network policies.
+
+## Download (no install required)
+
+1. Open **[Releases](https://github.com/theofficialryanborden-wq/pc-privacy-spoofer/releases)** on GitHub.
+2. Download **`PC-Privacy-Spoofer.exe`** from the latest release.
+3. Right-click the file → **Run as administrator** (required for spoof/restore).
+4. Use the GUI to view identifiers, spoof selected items, or restore from backup.
+
+No Python install is needed when using the `.exe`. Windows 10/11 only.
 
 ## What it changes
 
